@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Almudena\\OneDrive\\Escritorio\\ICAI\\TERCERO\\Paradigmas y tecnicas\\P2_Arquitectura_Software\\P2_Arquitectura_Software\\P2_Arquitectura_Software.csproj",
+      "projectUniqueName": "C:\\Users\\Almudena\\OneDrive\\Escritorio\\ICAI\\TERCERO\\Paradigmas y tecnicas\\P2_Arquitectura_Software\\P2_Arquitectura_Software.csproj",
       "projectName": "P2_Arquitectura_Software",
-      "projectPath": "C:\\Users\\Almudena\\OneDrive\\Escritorio\\ICAI\\TERCERO\\Paradigmas y tecnicas\\P2_Arquitectura_Software\\P2_Arquitectura_Software\\P2_Arquitectura_Software.csproj",
+      "projectPath": "C:\\Users\\Almudena\\OneDrive\\Escritorio\\ICAI\\TERCERO\\Paradigmas y tecnicas\\P2_Arquitectura_Software\\P2_Arquitectura_Software.csproj",
       "packagesPath": "C:\\Users\\Almudena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Almudena\\OneDrive\\Escritorio\\ICAI\\TERCERO\\Paradigmas y tecnicas\\P2_Arquitectura_Software\\P2_Arquitectura_Software\\obj\\",
+      "outputPath": "C:\\Users\\Almudena\\OneDrive\\Escritorio\\ICAI\\TERCERO\\Paradigmas y tecnicas\\P2_Arquitectura_Software\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Almudena\\AppData\\Roaming\\NuGet\\NuGet.Config",

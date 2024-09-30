@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P2_Arquitectura_Software")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c38cdc9191f754eac7aa75f6606c6c9e177aa00c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6eb72c3a7225416eabda75fdd313bf23fc9bd74")]
 [assembly: System.Reflection.AssemblyProductAttribute("P2_Arquitectura_Software")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P2_Arquitectura_Software")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

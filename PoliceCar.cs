@@ -12,12 +12,13 @@ namespace P2_Arquitectura_Software
         private bool isChasing;
         private bool hasRadar;
 
-        public PoliceCar(string plate, PoliceStation policeStation) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, PoliceStation policeStation, bool hasRadar) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             speedRadar = hasRadar ? new SpeedRadar(): null;
             this.policeStation = policeStation;
             isChasing = false;
+            this.hasRadar = hasRadar;
         }
 
         public bool IsPatrolling()
@@ -52,10 +53,11 @@ namespace P2_Arquitectura_Software
                 if (speedRadar != null)
                 {
                     speedRadar.TriggerRadar(vehicle);
-                    string meassurement = speedRadar.GetLastReading();
+                    (string meassurement, bool isSpeeding) = speedRadar.GetLastReading();
                     Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+                    if (isSpeeding) { policeStation.ActivateAlert(vehicle.GetPlate()); };
                 }
-                else { Console.WriteLine(WriteMessage($"has no radar.")); }
+                else { Console.WriteLine(WriteMessage($"has no radar to trigger.")); }
             }
             else
             {
@@ -73,17 +75,19 @@ namespace P2_Arquitectura_Software
                     Console.WriteLine(speed);
                 }
             }
-            else { Console.WriteLine(WriteMessage($"has no radar.")); }
+            else { Console.WriteLine(WriteMessage($"has no radar to print its history.")); }
         }
 
         public void ChaseCar(string plate)
-            { isChasing = true; }
+        {
+            isChasing = true;
+            Console.WriteLine(WriteMessage($"chasing infractor car with plate {plate}."));
+        }
 
         public void ReceiveAlert(string plate)
         {
-            if (!isPatrolling)
+            if (isPatrolling)
                 ChaseCar(plate);
-                Console.WriteLine(WriteMessage($"chasing infractor car with plate {plate}"));
         }
     }
 }

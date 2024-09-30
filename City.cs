@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace P2_Arquitectura_Software
 {
-    public class City
+    public class City : IMessageWritter
     {
         public List<PoliceStation> policeStations { get; private set; }
         public List<Taxi> taxiCars { get; private set; }
@@ -16,6 +16,7 @@ namespace P2_Arquitectura_Software
         {
             this.policeStations = new List<PoliceStation> { };
             this.taxiCars = new List<Taxi> {};
+            Console.WriteLine(WriteMessage("created."));
         }
 
         public void AddPoliceStation(PoliceStation policeStation)
@@ -27,7 +28,7 @@ namespace P2_Arquitectura_Software
         {
             Taxi taxiCar = new Taxi(plate);
             taxiCars.Add(taxiCar);
-            Console.WriteLine(taxiCar.WriteMessage(("created.")));
+            Console.WriteLine(taxiCar.WriteMessage(("created and registered in city.")));
         }
 
         public void RemoveTaxi(string plate)
@@ -52,6 +53,10 @@ namespace P2_Arquitectura_Software
             {
                 Console.WriteLine($"Taxi with plate {plate}: was not found and could not be removed from city.");
             }
+        }
+        public string WriteMessage(string customMessage)
+        {
+            return $"City: {customMessage}";
         }
     }
 }

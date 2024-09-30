@@ -8,19 +8,22 @@ namespace P2_Arquitectura_Software
         static void Main(string[] args)
         {
 
-            PoliceStation policeStation = new PoliceStation();
             City city = new City();
-
-            policeStation.RegisterCar("0001 CNP");
-            policeStation.RegisterCar("0002 CNP");
-            PoliceCar policeOne = policeStation.policeCars.First();
-            PoliceCar policeTwo = policeStation.policeCars.Last();
-            city.AddPoliceStation(policeStation);
+            // Metemos como argumento la ciudad para que pueda notificarla para revocar licencias
+            PoliceStation policeStation = new PoliceStation(city);
 
             city.RegisterTaxi("0001 AAA");
             city.RegisterTaxi("0002 BBB");
             Taxi taxiOne = city.taxiCars.First();
             Taxi taxiTwo = city.taxiCars.Last();
+
+            policeStation.RegisterCar("0001 CNP", hasRadar : true);
+            policeStation.RegisterCar("0002 CNP", hasRadar : false);
+            policeStation.RegisterCar("0003 CNP", hasRadar: false);
+            PoliceCar policeOne = policeStation.policeCars.First();
+            PoliceCar policeTwo = policeStation.policeCars[1];
+            PoliceCar policeThree = policeStation.policeCars.Last();
+            city.AddPoliceStation(policeStation);
 
             policeOne.StartPatrol();
             policeOne.UseRadar(taxiOne);
@@ -31,6 +34,7 @@ namespace P2_Arquitectura_Software
             taxiTwo.StopRide();
             policeTwo.StopPatrol();
             taxiOne.StartRide();
+            policeThree.StartPatrol();
             taxiOne.StartRide();
             policeOne.StartPatrol();
             policeOne.UseRadar(taxiOne);

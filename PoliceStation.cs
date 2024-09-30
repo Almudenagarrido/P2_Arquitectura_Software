@@ -7,26 +7,30 @@ namespace P2_Arquitectura_Software
     {
         public List<PoliceCar> policeCars { get; private set; }
         private bool alertActive;
+        private City city;
        
-        public PoliceStation()
+        public PoliceStation(City city)
         {
             policeCars = new List<PoliceCar> { };
             alertActive = false;
+            this.city = city;
+            Console.WriteLine(WriteMessage("created."));        
         }
 
-        public void RegisterCar(string plate)
+        public void RegisterCar(string plate, bool hasRadar)
         {
-            PoliceCar policeCar = new PoliceCar(plate, this);
+            PoliceCar policeCar = new PoliceCar(plate, this, hasRadar);
             policeCars.Add(policeCar);
-            Console.WriteLine(policeCar.WriteMessage(("created.")));
+            string messageRadar = hasRadar ? "with radar" : "without radar";
+            Console.WriteLine(policeCar.WriteMessage(($"created and registered {messageRadar} in police station.")));
         }
 
         public void ActivateAlert(string plate)
         {
-            Console.WriteLine($"Alert activated for vehicle with plate: {plate}");
+            Console.WriteLine($"Alert activated for vehicle with plate: {plate}.");
             alertActive = true;
-            
             NotifyCars(plate);
+            city.RemoveTaxi(plate);
         }
 
         public void NotifyCars(string plate)
@@ -38,6 +42,10 @@ namespace P2_Arquitectura_Software
                     police.ReceiveAlert(plate);
                 }
             }
+        }
+        public string WriteMessage(string customMessage)
+        {
+            return $"Police station: {customMessage}";
         }
     }
 }
