@@ -1,0 +1,14 @@
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\obj\Debug\net8.0\P1_Programacion_Objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\obj\Debug\net8.0\P1_Programacion_Objetos.AssemblyInfoInputs.cache
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\obj\Debug\net8.0\P1_Programacion_Objetos.AssemblyInfo.cs
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\obj\Debug\net8.0\P1_Programacion_Objetos.csproj.CoreCompileInputs.cache
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\bin\Debug\net8.0\P1_Programacion_Objetos.exe
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\bin\Debug\net8.0\P1_Programacion_Objetos.deps.json
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\bin\Debug\net8.0\P1_Programacion_Objetos.runtimeconfig.json
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\bin\Debug\net8.0\P1_Programacion_Objetos.dll
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\bin\Debug\net8.0\P1_Programacion_Objetos.pdb
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\obj\Debug\net8.0\P1_Programacion_Objetos.dll
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\obj\Debug\net8.0\refint\P1_Programacion_Objetos.dll
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\obj\Debug\net8.0\P1_Programacion_Objetos.pdb
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\obj\Debug\net8.0\P1_Programacion_Objetos.genruntimeconfig.cache
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P1_Programacion_Objetos\P1_Programacion_Objetos\obj\Debug\net8.0\ref\P1_Programacion_Objetos.dll

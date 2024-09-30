@@ -8,9 +8,9 @@ namespace P2_Arquitectura_Software
 {
     public class Skate : Vehicle
     {
-        public Skate(string plate) : base("Skate", plate)
+        public Skate() : base("Skate")
         {
-            //riding = false;
+
         }
     }
 }
