@@ -1,49 +1,40 @@
-﻿namespace P2_Arquitectura_Software
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace P2_Arquitectura_Software
 {
-    abstract class Vehicle : IMessageWritter
+    public abstract class Vehicle: IMessageWritter
     {
         private string typeOfVehicle;
         private string plate;
         private float speed;
 
         public Vehicle(string typeOfVehicle, string plate)
-        {
-            this.typeOfVehicle = typeOfVehicle;
-            this.plate = plate;
-            speed = 0f;
-        }
-
-        //Override ToString() method with class information
-        public override string ToString()
-        {
-            return $"{GetTypeOfVehicle()} with plate {GetPlate()}";
+        {   
+            this.typeOfVehicle = typeOfVehicle; 
+            this.plate = plate; 
+            this.speed = 45;
+            WriteMessage("Created.");
         }
 
         public string GetTypeOfVehicle()
-        {
-            return typeOfVehicle;
-        }
-
-        public string GetPlate()
-        {
-            return plate;
-        }
-
+            { return typeOfVehicle; }
 
         public float GetSpeed()
-        {
-            return speed;
-        }
+            { return speed; }
 
         public void SetSpeed(float speed)
-        {
-            this.speed = speed;
-        }
+            { this.speed = speed; }
 
-        //Implment interface with Vechicle message structure
-        public string WriteMessage(string message)
+        public string GetPlate()
+            { return plate; }
+
+        public virtual string WriteMessage(string customMessage)
         {
-            return $"{this}: {message}";
+            return $"{typeOfVehicle} with plate {GetPlate()}: {customMessage}";
         }
     }
 }

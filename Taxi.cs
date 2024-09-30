@@ -1,43 +1,45 @@
-﻿namespace P2_Arquitectura_Software
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace P2_Arquitectura_Software
 {
-    class Taxi : Vehicle
+    public class Taxi : Vehicle
     {
-        //constant string as TypeOfVehicle wont change allong PoliceCar instances.
-        private static string typeOfVehicle = "Taxi";
-        private bool isCarryingPassengers;
+        private bool isCarryingPassangers;
 
-        public Taxi(string plate) : base(typeOfVehicle, plate)
+        public Taxi(string plate) : base("Taxi", plate)
         {
-            //Values of atributes are set just when the instance is done if not needed before.
-            isCarryingPassengers = false;
-            SetSpeed(45.0f);
+            isCarryingPassangers = false;
         }
-
+        
         public void StartRide()
         {
-            if (!isCarryingPassengers)
+            if (isCarryingPassangers)
             {
-                isCarryingPassengers = true;
-                SetSpeed(100.0f);
-                Console.WriteLine(WriteMessage("starts a ride."));
+                Console.WriteLine(WriteMessage("is already in a ride."));
             }
             else
             {
-                Console.WriteLine(WriteMessage("is already in a ride."));
+                isCarryingPassangers = true;
+                SetSpeed(100);
+                Console.WriteLine(WriteMessage("starts a ride."));
             }
         }
 
         public void StopRide()
         {
-            if (isCarryingPassengers)
+            if (!isCarryingPassangers)
             {
-                isCarryingPassengers = false;
-                SetSpeed(45.0f);
-                Console.WriteLine(WriteMessage("finishes ride."));
+                Console.WriteLine(WriteMessage("is not on a ride."));
             }
             else
             {
-                Console.WriteLine(WriteMessage("is not on a ride."));
+                isCarryingPassangers = false;
+                SetSpeed(45);
+                Console.WriteLine(WriteMessage("finishes ride."));
             }
         }
     }

@@ -1,4 +1,11 @@
-﻿namespace P2_Arquitectura_Software
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using P2_Arquitectura_Software;
+
+namespace P2_Arquitectura_Software
 {
     class SpeedRadar : IMessageWritter
     {
@@ -21,7 +28,7 @@
             speed = vehicle.GetSpeed();
             SpeedHistory.Add(speed);
         }
-        
+
         public string GetLastReading()
         {
             if (speed > legalSpeed)

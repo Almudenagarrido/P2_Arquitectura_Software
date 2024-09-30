@@ -1,16 +1,47 @@
-﻿namespace P2_Arquitectura_Software
+﻿using System;
+using System.Collections.Generic;
+
+namespace P2_Arquitectura_Software
 {
-    class PoliceCar : Vehicle
+    public class PoliceCar : Vehicle, IMessageWritter
     {
-        //constant string as TypeOfVehicle wont change allong PoliceCar instances
-        private const string typeOfVehicle = "Police Car"; 
+        private const string typeOfVehicle = "Police";
         private bool isPatrolling;
         private SpeedRadar speedRadar;
+        private PoliceStation policeStation;
+        private bool isChasing;
 
-        public PoliceCar(string plate) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, PoliceStation policeStation) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             speedRadar = new SpeedRadar();
+            this.policeStation = policeStation;
+            isChasing = false;
+        }
+
+        public bool IsPatrolling()
+            { if (isPatrolling)
+                return true;
+            return false;
+        }
+
+        public void StartPatrol()
+        {
+            if (isPatrolling)
+            {
+                Console.WriteLine(WriteMessage("is already patrolling."));
+            }
+            else
+            {
+                isPatrolling = true;
+                Console.WriteLine(WriteMessage("started patrolling."));
+            }
+        }
+
+        public void StopPatrol()
+        {
+            isPatrolling = false;
+            Console.WriteLine(WriteMessage("stopped patrolling."));
         }
 
         public void UseRadar(Vehicle vehicle)
@@ -27,37 +58,6 @@
             }
         }
 
-        public bool IsPatrolling()
-        {
-            return isPatrolling;
-        }
-
-        public void StartPatrolling()
-        {
-            if (!isPatrolling)
-            {
-                isPatrolling = true;
-                Console.WriteLine(WriteMessage("started patrolling."));
-            }
-            else
-            {
-                Console.WriteLine(WriteMessage("is already patrolling."));
-            }
-        }
-
-        public void EndPatrolling()
-        {
-            if (isPatrolling)
-            {
-                isPatrolling = false;
-                Console.WriteLine(WriteMessage("stopped patrolling."));
-            }
-            else
-            {
-                Console.WriteLine(WriteMessage("was not patrolling."));
-            }
-        }
-
         public void PrintRadarHistory()
         {
             Console.WriteLine(WriteMessage("Report radar speed history:"));
@@ -65,6 +65,16 @@
             {
                 Console.WriteLine(speed);
             }
+        }
+
+        public void ChaseCar(string plate)
+            { isChasing = true; }
+
+        public void ReceiveAlert(string plate)
+        {
+            if (!isPatrolling)
+                ChaseCar(plate);
+                Console.WriteLine(WriteMessage($"chasing infractor car with plate {plate}"));
         }
     }
 }
