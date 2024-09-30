@@ -1,0 +1,14 @@
+C:\Users\migue\Documents\CS_code\vehicle_example\bin\Debug\net8.0\vehicle_example.exe
+C:\Users\migue\Documents\CS_code\vehicle_example\bin\Debug\net8.0\vehicle_example.deps.json
+C:\Users\migue\Documents\CS_code\vehicle_example\bin\Debug\net8.0\vehicle_example.runtimeconfig.json
+C:\Users\migue\Documents\CS_code\vehicle_example\bin\Debug\net8.0\vehicle_example.dll
+C:\Users\migue\Documents\CS_code\vehicle_example\bin\Debug\net8.0\vehicle_example.pdb
+C:\Users\migue\Documents\CS_code\vehicle_example\obj\Debug\net8.0\vehicle_example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Documents\CS_code\vehicle_example\obj\Debug\net8.0\vehicle_example.AssemblyInfoInputs.cache
+C:\Users\migue\Documents\CS_code\vehicle_example\obj\Debug\net8.0\vehicle_example.AssemblyInfo.cs
+C:\Users\migue\Documents\CS_code\vehicle_example\obj\Debug\net8.0\vehicle_example.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\CS_code\vehicle_example\obj\Debug\net8.0\vehicle_example.dll
+C:\Users\migue\Documents\CS_code\vehicle_example\obj\Debug\net8.0\refint\vehicle_example.dll
+C:\Users\migue\Documents\CS_code\vehicle_example\obj\Debug\net8.0\vehicle_example.pdb
+C:\Users\migue\Documents\CS_code\vehicle_example\obj\Debug\net8.0\vehicle_example.genruntimeconfig.cache
+C:\Users\migue\Documents\CS_code\vehicle_example\obj\Debug\net8.0\ref\vehicle_example.dll

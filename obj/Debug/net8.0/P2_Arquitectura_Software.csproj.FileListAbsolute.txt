@@ -1,0 +1,14 @@
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\obj\Debug\net8.0\P2_Arquitectura_Software.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\obj\Debug\net8.0\P2_Arquitectura_Software.AssemblyInfoInputs.cache
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\obj\Debug\net8.0\P2_Arquitectura_Software.AssemblyInfo.cs
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\obj\Debug\net8.0\P2_Arquitectura_Software.csproj.CoreCompileInputs.cache
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\bin\Debug\net8.0\P2_Arquitectura_Software.exe
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\bin\Debug\net8.0\P2_Arquitectura_Software.deps.json
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\bin\Debug\net8.0\P2_Arquitectura_Software.runtimeconfig.json
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\bin\Debug\net8.0\P2_Arquitectura_Software.dll
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\bin\Debug\net8.0\P2_Arquitectura_Software.pdb
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\obj\Debug\net8.0\P2_Arquitectura_Software.dll
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\obj\Debug\net8.0\refint\P2_Arquitectura_Software.dll
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\obj\Debug\net8.0\P2_Arquitectura_Software.pdb
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\obj\Debug\net8.0\P2_Arquitectura_Software.genruntimeconfig.cache
+C:\Users\Almudena\OneDrive\Escritorio\ICAI\TERCERO\Paradigmas y tecnicas\P2_Arquitectura_Software\obj\Debug\net8.0\ref\P2_Arquitectura_Software.dll

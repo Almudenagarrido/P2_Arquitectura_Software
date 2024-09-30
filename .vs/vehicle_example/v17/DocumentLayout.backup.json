@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\migue\\documents\\cs_code\\p1-vehicle_example\\speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\migue\\documents\\cs_code\\p1-vehicle_example\\imessagewritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:imessagewritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\migue\\documents\\cs_code\\p1-vehicle_example\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\migue\\documents\\cs_code\\p1-vehicle_example\\policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\migue\\documents\\cs_code\\p1-vehicle_example\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\migue\\documents\\cs_code\\p1-vehicle_example\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Taxi.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\Taxi.cs",
+              "RelativeDocumentMoniker": "Taxi.cs",
+              "ToolTip": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\Taxi.cs",
+              "RelativeToolTip": "Taxi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:18:10.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMessageWritter.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\IMessageWritter.cs",
+              "RelativeDocumentMoniker": "IMessageWritter.cs",
+              "ToolTip": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\IMessageWritter.cs",
+              "RelativeToolTip": "IMessageWritter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:23:25.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpeedRadar.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\SpeedRadar.cs",
+              "RelativeDocumentMoniker": "SpeedRadar.cs",
+              "ToolTip": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\SpeedRadar.cs",
+              "RelativeToolTip": "SpeedRadar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:22:24.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PoliceCar.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\PoliceCar.cs",
+              "RelativeDocumentMoniker": "PoliceCar.cs",
+              "ToolTip": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\PoliceCar.cs",
+              "RelativeToolTip": "PoliceCar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:18:21.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:17:23.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\migue\\Documents\\CS_code\\P1-vehicle_example\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:22:46.009Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
