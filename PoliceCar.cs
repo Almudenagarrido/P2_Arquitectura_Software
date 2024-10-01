@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace P2_Arquitectura_Software
 {
-    public class PoliceCar : Vehicle, IMessageWritter
+    public class PoliceCar : VehicleWithPlate, IMessageWritter
     {
         private const string typeOfVehicle = "Police";
         private bool isPatrolling;
@@ -46,7 +46,7 @@ namespace P2_Arquitectura_Software
             Console.WriteLine(WriteMessage("stopped patrolling."));
         }
 
-        public void UseRadar(Vehicle vehicle)
+        public void UseRadar(VehicleWithPlate vehicle)
         {
             if (isPatrolling)
             {

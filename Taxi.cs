@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace P2_Arquitectura_Software
 {
-    public class Taxi : Vehicle
+    public class Taxi : VehicleWithPlate
     {
         private bool isCarryingPassangers;
 

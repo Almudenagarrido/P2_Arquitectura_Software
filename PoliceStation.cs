@@ -7,13 +7,11 @@ namespace P2_Arquitectura_Software
     {
         public List<PoliceCar> policeCars { get; private set; }
         private bool alertActive;
-        private City city;
        
-        public PoliceStation(City city)
+        public PoliceStation()
         {
             policeCars = new List<PoliceCar> { };
             alertActive = false;
-            this.city = city;
             Console.WriteLine(WriteMessage("created."));        
         }
 
@@ -30,7 +28,6 @@ namespace P2_Arquitectura_Software
             Console.WriteLine($"Alert activated for vehicle with plate: {plate}.");
             alertActive = true;
             NotifyCars(plate);
-            city.RemoveTaxi(plate);
         }
 
         public void NotifyCars(string plate)

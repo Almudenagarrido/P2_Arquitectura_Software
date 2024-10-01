@@ -9,8 +9,7 @@ namespace P2_Arquitectura_Software
         {
 
             City city = new City();
-            // Metemos como argumento la ciudad para que pueda notificarla para revocar licencias
-            PoliceStation policeStation = new PoliceStation(city);
+            PoliceStation policeStation = new PoliceStation();
 
             city.RegisterTaxi("0001 AAA");
             city.RegisterTaxi("0002 BBB");
@@ -39,10 +38,12 @@ namespace P2_Arquitectura_Software
             policeOne.StartPatrol();
             policeOne.UseRadar(taxiOne);
             taxiOne.StopRide();
-            taxiOne.StopRide();
+            city.RemoveTaxi(taxiOne.GetPlate());
             policeOne.StopPatrol();
             policeOne.PrintRadarHistory();
             policeTwo.PrintRadarHistory();
         }
     }
 }
+// la d de los principios se cumple porque las de anajo dependen 
+// el siete se icumple liskov 
