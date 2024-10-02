@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace P2_Arquitectura_Software
 {
-    public class PoliceStation
+    public class PoliceStation : IMessageWritter
     {
         public List<PoliceCar> policeCars { get; private set; }
         private bool alertActive;
@@ -20,12 +20,12 @@ namespace P2_Arquitectura_Software
             PoliceCar policeCar = new PoliceCar(plate, this, hasRadar);
             policeCars.Add(policeCar);
             string messageRadar = hasRadar ? "with radar" : "without radar";
-            Console.WriteLine(policeCar.WriteMessage(($"created and registered {messageRadar} in police station.")));
+            Console.WriteLine(WriteMessage(policeCar.WriteMessage(($"created and registered {messageRadar} in police station."))));
         }
 
         public void ActivateAlert(string plate)
         {
-            Console.WriteLine($"Alert activated for vehicle with plate: {plate}.");
+            Console.WriteLine(WriteMessage($"Alert activated for vehicle with plate: {plate}."));
             alertActive = true;
             NotifyCars(plate);
         }

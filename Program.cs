@@ -5,7 +5,7 @@ namespace P2_Arquitectura_Software
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
 
             City city = new City();
@@ -16,8 +16,8 @@ namespace P2_Arquitectura_Software
             Taxi taxiOne = city.taxiCars.First();
             Taxi taxiTwo = city.taxiCars.Last();
 
-            policeStation.RegisterCar("0001 CNP", hasRadar : true);
-            policeStation.RegisterCar("0002 CNP", hasRadar : false);
+            policeStation.RegisterCar("0001 CNP", hasRadar: true);
+            policeStation.RegisterCar("0002 CNP", hasRadar: false);
             policeStation.RegisterCar("0003 CNP", hasRadar: false);
             PoliceCar policeOne = policeStation.policeCars.First();
             PoliceCar policeTwo = policeStation.policeCars[1];
@@ -45,5 +45,3 @@ namespace P2_Arquitectura_Software
         }
     }
 }
-// la d de los principios se cumple porque las de anajo dependen 
-// el siete se icumple liskov 

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("P2_Arquitectura_Software")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("vehicle_example")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f44f8e74d85553849138179ab0dac1c946aa5019")]
-[assembly: System.Reflection.AssemblyProductAttribute("P2_Arquitectura_Software")]
-[assembly: System.Reflection.AssemblyTitleAttribute("P2_Arquitectura_Software")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("vehicle_example")]
+[assembly: System.Reflection.AssemblyTitleAttribute("vehicle_example")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

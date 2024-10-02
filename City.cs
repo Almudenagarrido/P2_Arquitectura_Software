@@ -28,7 +28,7 @@ namespace P2_Arquitectura_Software
         {
             Taxi taxiCar = new Taxi(plate);
             taxiCars.Add(taxiCar);
-            Console.WriteLine(taxiCar.WriteMessage(("created and registered in city.")));
+            Console.WriteLine(WriteMessage(taxiCar.WriteMessage(("created and registered in city."))));
         }
 
         public void RemoveTaxi(string plate)
